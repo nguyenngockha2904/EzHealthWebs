@@ -1,0 +1,14 @@
+.Products__header ul {
+  display: flex;
+  list-style-type: none;
+}
+.Products__header ul li {
+  margin: 13px 33px;
+}
+.Products__header ul li a {
+  text-decoration: none;
+  padding: 20px;
+}
+.Products__header ul li:hover a {
+  border-bottom: 2px solid #17b2ac;
+}

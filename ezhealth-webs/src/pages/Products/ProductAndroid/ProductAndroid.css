@@ -1,0 +1,39 @@
+.productandroid {
+  width: 80%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+}
+.productandroid h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+.productandroid__info {
+  padding: 10px;
+}
+.productandroid__info__btnDownload {
+  letter-spacing: 2px;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  color: white;
+  background: #17b2ac;
+  border: 2px solid #17b2ac;
+}
+.productandroid__info__btnDownload i {
+  color: white;
+  margin-right: 8px;
+}
+.productandroid__info__btnDownload:hover,
+.productandroid__info__btnDownload:hover i {
+  outline: none;
+  background: #fff;
+  color: #17b2ac;
+}
+.productandroid__info__btnDownload:focus {
+  outline: none;
+}
+.productandroid__slider {
+  background-color: #17b2ac;
+}

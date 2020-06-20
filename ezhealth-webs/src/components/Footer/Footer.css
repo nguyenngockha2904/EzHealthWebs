@@ -1,0 +1,7 @@
+.footer {
+  background: #4d4d4d;
+  display: flex;
+}
+.footer p {
+  margin: 35px auto;
+}

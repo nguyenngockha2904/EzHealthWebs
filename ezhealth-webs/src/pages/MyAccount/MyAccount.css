@@ -1,0 +1,100 @@
+.container__account {
+  width: 40%;
+  margin: 10em auto;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.container__account h1 {
+  font-size: 2em;
+  padding: 20px;
+}
+.account-group-input {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+.account_inputContent {
+  text-align: center;
+  justify-content: center;
+  width: 60%;
+  margin: 13px 0px;
+  padding: 8px;
+  border: none;
+  transition: all 0.2s;
+}
+.account_inputContent:hover {
+  border-bottom: 1px solid #17b2ac;
+}
+.account_inputContent:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #17b2ac;
+}
+
+.account_lblContent_padding {
+  padding-left: 13px;
+}
+.account_lblContent {
+  position: absolute;
+  left: 162px;
+  top: 21px;
+  color: #d8dbe3;
+}
+.account-group-input:hover .account_lblContent {
+  transform: translateY(-25px);
+  color: #8c8888;
+}
+.account_lblContent_retype {
+  left: 148px;
+}
+.account_lblContent_left {
+  left: 178px;
+}
+.account-btn {
+  width: 60%;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 19px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  border: none;
+  border-radius: 7px;
+}
+.btn-sign-Up {
+  color: white;
+  background: #17b2ac;
+}
+.btn-sign-Up:focus {
+  outline: none;
+}
+.btn-sign-In {
+  color: #17b2ac;
+  background: #fff;
+  border: 1px solid #17b2ac;
+}
+.btn-sign-In:focus {
+  outline: none;
+  border: 1px solid #17b2ac;
+}
+.account__social-networks {
+  padding: 20px;
+}
+.Button_icon {
+  margin: 1rem;
+}
+.Button_icon :hover {
+  cursor: pointer;
+}
+.account__SignUp_btnLogin {
+  padding: 20px;
+}
+.account__SignUp_btnLogin a {
+  text-decoration: none;
+  color: #17b2ac;
+  transition: all 0.5s;
+}
+.account__SignUp_btnLogin a:hover {
+  border-bottom: 1px solid #17b2ac;
+}
