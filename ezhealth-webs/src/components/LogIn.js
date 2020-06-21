@@ -1,8 +1,25 @@
 import React from "react";
 import "../pages/MyAccount/MyAccount.css";
-import { motion } from "framer-motion";
+import { motion, transform } from "framer-motion";
 import { Link } from "react-router-dom";
+
 const Login = () => {
+  const onBlurInput = (input, label) => {
+    let lbl = document.getElementById(label);
+    let inp = document.getElementById(input);
+    if (inp.value == "") {
+      lbl.style.transform = "translateY(0)";
+      lbl.style.color = "#d8dbe3";
+    }
+
+    console.log("blur");
+  };
+  const onFocusInput = (input, label) => {
+    let lbl = document.getElementById(label);
+    let inp = document.getElementById(input);
+    lbl.style.transform = "translateY(-25px)";
+    lbl.style.color = "#8c8888";
+  };
   return (
     <div className="container__account">
       <h1>Login</h1>
@@ -11,9 +28,14 @@ const Login = () => {
           type="text"
           className="account_inputContent"
           id="username"
+          onBlur={() => onBlurInput("username", "lbluser")}
+          onFocus={() => {
+            onFocusInput("username", "lbluser");
+          }}
           required
         />
         <label
+          id="lbluser"
           htmlFor="username"
           className="account_lblContent account_lblContent_padding"
         >
@@ -26,9 +48,13 @@ const Login = () => {
           type="password"
           className="account_inputContent"
           id="password"
+          onBlur={() => onBlurInput("password", "lblpass")}
+          onFocus={() => {
+            onFocusInput("password", "lblpass");
+          }}
           required
         />
-        <label htmlFor="password" className="account_lblContent">
+        <label htmlFor="password" id="lblpass" className="account_lblContent">
           Your password
         </label>
       </div>

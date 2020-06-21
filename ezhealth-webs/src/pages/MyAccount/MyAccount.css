@@ -4,6 +4,7 @@
   text-align: center;
   justify-content: center;
   align-content: center;
+  border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .container__account h1 {
@@ -23,6 +24,7 @@
   padding: 8px;
   border: none;
   transition: all 0.2s;
+  border-bottom: 0.5px solid #d8dbe3;
 }
 .account_inputContent:hover {
   border-bottom: 1px solid #17b2ac;
@@ -37,14 +39,12 @@
   padding-left: 13px;
 }
 .account_lblContent {
+  opacity: 1;
   position: absolute;
   left: 162px;
   top: 21px;
   color: #d8dbe3;
-}
-.account-group-input:hover .account_lblContent {
-  transform: translateY(-25px);
-  color: #8c8888;
+  transition: all 0.3s;
 }
 .account_lblContent_retype {
   left: 148px;
