@@ -54,7 +54,7 @@ const ProductIOS = () => {
           </div>
         </OwlCarousel>
       </div>
-      <div className="product__info">
+      <div className="product__info product__info__IOS">
         <p style={{ color: theme.text_p }}>
           Ezhealth for IOS version 8, 14 days trial period
         </p>

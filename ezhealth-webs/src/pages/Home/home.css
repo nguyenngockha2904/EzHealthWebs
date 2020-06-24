@@ -9,7 +9,7 @@
   grid-template-columns: repeat(2, 1fr);
 }
 .Home__slider__left {
-  padding: 14rem 10rem;
+  padding: 13rem 10rem;
   text-align: left;
 }
 .Home__slider__left h1 {

@@ -24,7 +24,8 @@ class Home extends Component {
             </p>
             <motion.button
               whileHover={{ scale: 1.1 }}
-              className="product__info__btnDownload"
+              className="product__info__btnDownload "
+              style={{ marginTop: "30px" }}
             >
               <i class="fa fa-arrow-down"></i>
               DOWNLOAD

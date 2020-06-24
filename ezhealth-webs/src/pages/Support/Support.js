@@ -5,9 +5,7 @@ class Support extends Component {
   render() {
     return (
       <div>
-        <div className="nav_bar">
-          <h1>Support Page</h1>
-        </div>
+        <div className="nav_bar"></div>
       </div>
     );
   }

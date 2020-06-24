@@ -5,9 +5,7 @@ class Blog extends Component {
   render() {
     return (
       <div>
-        <div className="nav_bar">
-          <h1>Blog Page</h1>
-        </div>
+        <div className="nav_bar"></div>
       </div>
     );
   }

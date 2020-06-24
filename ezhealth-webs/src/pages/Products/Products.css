@@ -31,10 +31,15 @@
   padding: 10px;
   justify-self: center;
   align-self: center;
+  text-align: left;
+}
+.product__info__IOS {
+  text-align: right;
 }
 .product__info__btnDownload {
   letter-spacing: 2px;
   border: none;
+  margin-top: 50px;
   padding: 10px 14px;
   border-radius: 8px;
   color: white;
