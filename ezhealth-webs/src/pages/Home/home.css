@@ -4,7 +4,6 @@
   background-image: url(../../features_img/backgrounds_final/background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: initial;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
