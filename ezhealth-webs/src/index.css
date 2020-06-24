@@ -17,3 +17,10 @@ code {
   font-size: 16px;
   color: #888888;
 }
+.center {
+  text-align: center;
+  justify-content: center;
+}
+.App {
+  /* background: #292d34; */
+}

@@ -1,0 +1,19 @@
+.Home__container {
+}
+.Home__slider {
+  background-image: url(../../features_img/backgrounds_final/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: initial;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.Home__slider__left {
+  padding: 14rem 10rem;
+  text-align: left;
+}
+.Home__slider__left h1 {
+  font-size: 2.2rem;
+  letter-spacing: 4px;
+}

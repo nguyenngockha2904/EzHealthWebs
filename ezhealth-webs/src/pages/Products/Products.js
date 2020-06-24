@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
-import Login from "../../components/LogIn";
-import SignUp from "../../components/SignUp";
 import { motion } from "framer-motion";
 import "./Products.css";
-import ProductAndroid from "./ProductAndroid/ProductAndroid";
-import ProductIOS from "./ProductIOS/ProductsIOS";
+import ProductAndroid from "./ProductAndroid";
+import ProductIOS from "./ProductsIOS";
 class Products extends Component {
   state = {};
   render() {
@@ -22,11 +20,18 @@ class Products extends Component {
               </motion.li>
             </ul>
           </div>
+          <div>
+            <Switch>
+              <Route exact path="/products" component={ProductAndroid} />
+              <Route
+                exact
+                path="/products/android"
+                component={ProductAndroid}
+              />
+              <Route exact path="/products/ios" component={ProductIOS} />
+            </Switch>
+          </div>
         </section>
-        <Switch>
-          <Route path="/products/android" component={ProductAndroid} />
-          <Route path="/products/ios" component={ProductIOS} />
-        </Switch>
       </BrowserRouter>
     );
   }

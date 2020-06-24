@@ -24,6 +24,7 @@
   padding: 8px;
   border: none;
   transition: all 0.2s;
+  color: #d8d9da;
   border-bottom: 0.5px solid #d8dbe3;
 }
 .account_inputContent:hover {

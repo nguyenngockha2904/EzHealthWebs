@@ -1,7 +1,62 @@
 .footer {
-  background: #4d4d4d;
-  display: flex;
+  /* background-color: transparent; */
+
+  padding: 35px;
 }
-.footer p {
-  margin: 35px auto;
+.footer__content {
+  display: grid;
+  padding: 5px 40px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 20px;
+}
+.footer__item__l {
+  grid-column: 1 / span 2;
+  padding: 0 63px;
+}
+.footer__item__logo {
+  margin-bottom: 2.3rem;
+  padding-top: 18px;
+}
+.footer__item__logo img {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 7px;
+  vertical-align: middle;
+}
+.footer__item__logo p {
+  margin: 0;
+  color: #17b2ac;
+  font-family: "Sriracha", cursive;
+  font-weight: 300;
+}
+.footer__item__logo span {
+  margin: 0;
+  color: #d8d9da;
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+}
+.footer__item {
+}
+.footer__item h3 {
+  color: #fff;
+  letter-spacing: 2px;
+}
+.footer__item ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer__item ul li {
+  padding: 10px 0;
+  letter-spacing: 0.5px;
+  color: #d8d9da;
+}
+.footer__inlineBlock {
+  display: inline-block;
+  margin: 15px;
+  font-size: 25px;
+}
+.footer__inlineBlock i,
+.footer__item__l p {
+  color: #d8d9da;
 }

@@ -5,13 +5,18 @@
   align-items: center;
   padding: 4px 5%;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 999;
 }
 .header__logo {
   text-decoration: none;
   font-family: "Sriracha", cursive;
+  text-align: center;
 }
 .header__logo img {
-  width: 4rem;
+  width: 3rem;
   height: 3rem;
   vertical-align: middle;
 }
@@ -43,7 +48,6 @@
 }
 .header__sub {
   margin: auto 2em;
-  color: #888888;
 }
 .header__sub i {
   margin-left: 1em;
@@ -62,7 +66,7 @@
   list-style-type: none;
   padding: 0;
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 .menu-item ul li {
   display: block;
@@ -109,10 +113,12 @@
   text-decoration: none;
   padding: 1.9em 0.2em;
 }
+.header__nav__right__a {
+  color: #f9c34e;
+}
 .Account_dropdown {
   display: none;
   position: absolute;
-  background: #fff;
   top: 52px;
   left: -17px;
   width: 8rem;
@@ -133,12 +139,11 @@
   text-align: left;
   padding: 28px 0px;
 }
-.Account_dropdown ul li:hover {
-  background: #f3f3f3;
-}
+/* .Account_dropdown ul li:hover {
+  background: #35393f;
+} */
 .Account_dropdown ul li a {
   text-decoration: none;
-  color: #888888;
   display: block;
   padding-left: 25px;
   text-align: left;
